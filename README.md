@@ -4,7 +4,7 @@
 
 ### 机器人
 
-* [ABB yumi 双臂机器人](./robots/yumi/README.md)
+* [ABB YuMi 双臂机器人](./robots/yumi/README.md)
 * [MOMA UR5 机器人](./robots/moma/README.md)
 
 ### 夹爪
