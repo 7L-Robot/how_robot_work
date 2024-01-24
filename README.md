@@ -8,7 +8,8 @@
 * [MOMA UR5 机器人](./robots/moma/README.md)
 
 ### 夹爪
-* xxx
+* [epick真空吸盘](./grippers/epick/README.md)
+* [ag95两指夹具](./grippers/dh_gripper/README.md)
 
 ### 网络通讯
 * [数据传递](./network/README.md)
