@@ -47,7 +47,7 @@ rosrun robotiq_vacuum_grippers_control robotiq_vacuum_grippers_ctrl.py
 官方代码 `robotiq_vacuum_grippers_ctrl.py` 已经帮我们封装好了一个抓手类，用的时候在我们自己的工作空间内import就行，因为是在ROS中运行的，所以只需要终端执行代码之前有source一下吸盘手的工作空间，就可以随地import：
 
 ```python
-from robotiq_vacuum_grippers_control import robotiq_vacuum_grippers_ctrl as VC
+from robotiq_vacuum_grippers_control.robotiq_vacuum_grippers_ctrl import RobotiqVGripper
 ```
 
 如果你想加到launch文件和机器臂一起启动（我们的已经加上了），用下面的代码就行：
